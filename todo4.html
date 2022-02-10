@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+.all{
+    position: relative;
+    display: flex;
+    height: 600px;
+    width: 600px;
+    border: 3px solid black;
+    left: 15%;
+    right: 60px;
+    
+}
+
+
+
+
+.container1{
+        
+        height: 500px;
+        width: 300px;
+        
+        margin-left:5%;
+        justify-content: center;
+        position: absolute;
+        
+        
+    
+        
+
+}
+
+
+.container{
+    height: 180px;
+    width: 300px;
+    border: solid 3px orangered;
+    margin-left: 32%;
+    margin-top: 65%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    box-shadow: 8px 8px 8px grey;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.btn{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 25px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 1rem;
+}
+.bg{
+    position: absolute;
+    filter: blur(4px);
+    margin-left: 29%;
+    margin-top: 6%;
+    height: 400px;
+    width: 200rem;
+    
+}
+
+@media only screen and (min-width:200px) and (max-width:550px) {
+    .all{
+        
+        margin-left: 2px;
+        width: 500px;
+        border: none;
+        margin-right: 40px;
+        
+    
+        
+    }
+    .container{
+        width: 340px;
+        margin-top: 150px;
+        height: 450px;
+        margin-left: 2px;
+        font-size: 2rem;
+        margin-right: 20px;
+    }
+    .bg{
+    height: 150rem;
+    
+    
+    margin-left: 2px;
+    
+    }
+.btn{
+      font-size: 2rem;
+      width: 200px;
+      height: 60px;
+      margin-top: 80px;
+}
+.m{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+
+
+}
+    
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+
+<div class="all">
+     <div class="container1">   
+     <div class="bg">
+      <img src="mbg.png" >
+         
+     </div>
+    
+
+
+     <div class="container">
+     <div class="box"><br>
+     <h2>Add New List</h2>
+  <div class="m">   <label for="text"></label><br>
+     <input type="text"></div><br><br>
+     <button class="btn">ADD</button>
+    </div>
+      
+
+</div>
+
+
+     
+    
+
+
+</div>
+</div>
+
+</body>
+</html>

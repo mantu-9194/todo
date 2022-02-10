@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+.container{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    border: solid 3px orangered;
+    margin-left: 9%;
+    margin-top: 18%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    
+    background-color: white;
+    box-shadow: 8px 8px 8px grey;
+    font-size: 1rem;
+    
+}
+.btn{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 16%;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 1rem;
+}
+.bg{
+    position:absolute;
+    filter: blur(2px);
+    margin-left:10px;
+    
+    
+}
+
+
+
+
+
+
+.container1{
+    display: flex;
+    position: relative;
+    height: 490px;
+    width: 700px;
+    justify-content: center;
+    margin-top: 20px;
+    border:  3px solid black;
+    margin-left: 20%;
+
+
+    
+    
+
+}
+
+
+
+@media (min-width:200px) and (max-width:550px){
+.container1{
+      border: none;
+      margin-left: 2px;
+
+
+
+}
+.container{
+    height: 650px;
+    width: 400px;
+    font-size: 3rem;
+    border: solid 5px orangered;
+    
+}
+
+.btn{
+       height: 50px;
+       width: 150px;
+       margin-left: 100px;
+       margin-top: 100px;
+       font-size: 3rem;
+}
+
+.box{
+    margin-top: 50px;
+    
+}
+
+.m{
+    position: absolute;
+    left: 80px;
+}
+
+
+}
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class= "container1">
+        <div class="bg">
+            <img src="ttp.png" height="400" width="300">
+        </div>
+    <div class="container">
+     <div class="box"><br>
+     <h2>Add New List</h2>
+ <div class="m">    <label for="text"></label><br>
+     <input type="text"></div><br><br>
+     <button class="btn">ADD</button>
+    </div>
+
+     </div>
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
